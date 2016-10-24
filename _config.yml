@@ -1,0 +1,16 @@
+title: Varian Style Guide
+description: A repository of common UI patterns and for the Oncology 360 client.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+source: docs
+destination: build/docs
+sass:
+  sass_dir: styles
+exclude:
+  - src/scss
+
+kramdown:
+  syntax_highlighter: rouge

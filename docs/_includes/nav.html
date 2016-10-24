@@ -1,0 +1,20 @@
+<nav class="docs-nav md-padding">
+
+  {% for group in site.data.nav %}
+  <ul class="docs-nav">
+    <li><a href="/{{ group.title }}">{{ group.title }}</a>
+    <ul>
+
+    {% for doc in group.pages %}
+    <li>
+      <a href="/{{ group.title }}/{{ doc.title }}">
+        {{ doc.title }}
+      </a>
+    </li>
+    {% endfor %}
+
+    </ul>
+    </li>
+  </ul>
+  {% endfor %}
+</nav>

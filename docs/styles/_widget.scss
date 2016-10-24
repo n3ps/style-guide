@@ -1,0 +1,17 @@
+.widget {
+  background: white;
+  max-width: 340px;
+  border: $border;
+
+  > .widget-header {
+    @include vertical-center;
+    @include font-med;
+    height: 40px;
+    border-bottom: $border;
+  }
+
+  > .widget-header,
+  > .widget-body {
+    @include padded-sides;
+  }
+}
