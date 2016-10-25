@@ -1,6 +1,6 @@
-# Prerequisites
+## Prerequisites
 - Ruby
 - Jekyll
 
-# Generating the style guide
-`jekyll s`
+## Generating the Style Guide
+`$ jekyll serve`

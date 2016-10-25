@@ -15,7 +15,25 @@
     </header>
 
     <div class="docs-main">
-      {% include nav.html %}
+      <nav class="docs-nav md-padding">
+      {% for group in site.data.nav %}
+      <ul>
+        <li><a href="/{{ group.title }}">{{ group.title }}</a>
+        <ul>
+
+        {% for doc in group.pages %}
+        <li>
+          <a href="/{{ group.title }}/{{ doc.title }}">
+            {{ doc.title }}
+          </a>
+        </li>
+        {% endfor %}
+
+        </ul>
+        </li>
+      </ul>
+      {% endfor %}
+      </nav>
 
       <div class="docs-content md-padding">
         {{ content }}
