@@ -1,9 +1,11 @@
-- title: Typography
-- title: Colors
+- title: Layout
+- title: Content
+  pages:
+  - title: Typography
+  - title: Colors
 - title: Components
   pages:
     - title: Widget
-    - title: Widget Entry
     - title: Card
     - title: Tabs
-    - title: Dialogs
+    - title: Forms

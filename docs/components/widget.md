@@ -14,21 +14,20 @@ Widgets are the basic building blocks.
 
 <div class="widget">
   <div class="widget-header">Widget Header</div>
-  <div class="widget-body">Widget Body</div>
+  <div class="widget-body plain">Widget Body</div>
 </div>
 
 {% endexample %}
 
-### Example: Linked and with icon
+### Example: Linked and with icon (TO DO)
 
 {% example html %}
 
 <div class="widget">
   <div class="widget-header">
-    <v-icon icon="sample"></v-icon>
     <a href="#">Click me</a>
   </div>
-  <div class="widget-body">Widget Body</div>
+  <div class="widget-body plain">Widget Body</div>
 </div>
 
 {% endexample %}

@@ -17,20 +17,20 @@ Most components and standard HTML elements will have their color and/or backgrou
 <p class="urgent">Urgent text</p>
 {% endexample %}
 
-### Border and backgrounds (TODO)
+### Border and backgrounds (TO DO)
 - Outlines
 - Lines
 - Halo Header
 - Row Rollover
 - Background
 
-### Forms (TODO)
+### Forms (TO DO)
 - Checks
 - Labels
 - Grayed Text
 - Button
 
-### Unique colors (TODO)
+### Unique colors (TO DO)
 - One
 - Two
 - Three

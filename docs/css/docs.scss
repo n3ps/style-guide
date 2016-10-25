@@ -21,6 +21,16 @@
 
 .docs-nav {
   width: 200px;
+
+  > ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  > ul ul {
+    padding-left: 2em;
+  }
 }
 
 .docs-content {
@@ -30,10 +40,16 @@
     font-weight: 400;
     border-bottom: 1px solid #ccc;
   }
+
+  > h1 {
+    border-bottom: none;
+  }
 }
 
-v-icon {
-
+.highlight {
+  padding: 10px;
+  background: #fafafa;
+  margin: 1em 0 2em;
 }
 
 .highlight {

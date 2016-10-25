@@ -14,4 +14,8 @@
   > .widget-body {
     @include padded-sides;
   }
+
+  >.widget-body.plain {
+    padding: 10px;
+  }
 }
