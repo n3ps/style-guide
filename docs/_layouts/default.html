@@ -11,14 +11,14 @@
   <body class="docs-body">
 
     <header class="docs-header">
-      Varian 360 Oncology - Style Guide
+      Varian 360 Oncology - Pattern Library
     </header>
 
-    <div class="docs-main">
+    <main class="docs-main">
       <nav class="docs-nav md-padding">
-      {% for group in site.data.nav %}
+      {% for group in site.nav %}
       <ul>
-        <li><a href="/{{ group.title }}">{{ group.title }}</a>
+        <li>{{ group.title }}
         <ul>
 
         {% for doc in group.pages %}
@@ -38,7 +38,7 @@
       <div class="docs-content md-padding">
         {{ content }}
       </div>
-    </div>
+    </main>
 
   </body>
 </html>

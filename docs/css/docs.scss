@@ -20,7 +20,8 @@
 }
 
 .docs-nav {
-  width: 200px;
+  flex-basis: 160px;
+  flex-shrink: 0;
 
   > ul {
     margin-top: 0;
