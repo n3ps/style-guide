@@ -1,0 +1,19 @@
+.card {
+  background: white;
+  border: $border;
+  min-width: 340px;
+  padding: 10px;
+  width: 300px;
+  height: 120px;
+
+  &:hover {
+    border: 1px solid red;
+  }
+
+  &.diagnosis-card {
+    padding-left: 40px;
+    background-image: url('/images/_sprite.svg#icon-diagnosis'); // TODO
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+}

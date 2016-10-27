@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Colors
 description: Description goes here
-group: colors
 ---
 
 # Colors

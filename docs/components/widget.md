@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Widgets
 description: Description goes here
 group: components

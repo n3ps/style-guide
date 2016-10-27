@@ -19,9 +19,17 @@ nav:
   pages:
   - title: Typography
   - title: Colors
+  - title: Utilities
 - title: Components
   pages:
     - title: Widget
     - title: Card
     - title: Tabs
     - title: Forms
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

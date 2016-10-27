@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Typography
 description: Description goes here
-group: typography
 ---
 
 # Typography
@@ -14,13 +12,26 @@ group: typography
 </blockquoute>
 
 ## Paragraphs
+
+`<p>` or `.body-text`
+
 Varian's Oncology Systems business is the world's leading manufacturer of medical devices and software for treating cancer
 and other medical conditions with radiotherapy, radiosurgery, proton therapy, and brachytherapy.
 
+<!--
 <pre class="highlight">
 font-size: 14px;
 font-weight: 300;
 </pre>
+-->
+
+## Inline
+
+`<a>` - <a href="#">This is a hyperlink</a>
+
+`<strong>` - <strong>Strong is used indicate importance</strong>
+
+TODO: em, b, del, suo, sub, abbr, cite, dfn, address, tel, time, blockquote, .text-error, .text-success etc
 
 ## Headings
 <div class="large-heading">Large Heading</div>
@@ -34,3 +45,4 @@ font-weight: 500;
 font-size: 18px;
 font-weight: 500;
 </pre>
+

@@ -5,8 +5,13 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  // line-height: 18px;
+  line-height: 18px; //1.28571;
   color: $body-text-color;
+}
+
+strong,
+.strong {
+  font-weight: 500;
 }
 
 a:link {
