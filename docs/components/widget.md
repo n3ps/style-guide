@@ -5,7 +5,7 @@ group: components
 ---
 
 # Widget
-Widgets are the basic building blocks.
+Widgets are basic building blocks. Add `.widget-header` to get a vertically centered header. Add an optional `.widget-body` to get padded content.
 
 ### Example: Basic
 

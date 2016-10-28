@@ -7079,7 +7079,7 @@ angular.module('ngHaloUiLibrary').run(['$templateCache', function($templateCache
     '        ng-model="selectVm.model"\n' +
     '        ng-disabled="selectVm.ngDisabled"\n' +
     '        md-container-class="{{selectVm.classesToContainer}}"\n' +
-    '        placeholder="{{selectVm.placeholder | i18n}}"\n' +
+    '        placeholder="{{selectVm.placeholder}}"\n' +
     '        ng-style="selectVm.style"\n' +
     '        ng-change="selectVm.onChange()"\n' +
     '        ng-required="::selectVm.required"\n' +

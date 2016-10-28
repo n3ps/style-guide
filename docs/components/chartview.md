@@ -5,7 +5,7 @@ group: components
 ---
 
 # Chart Views
-This is an example layout of a patient chart page.
+This is the boilerplate markup of a patient chart page.
 
 ### Example: Basic
 

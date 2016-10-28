@@ -1,5 +1,6 @@
 table.table {
   border-collapse: collapse;
+  width: 100%;
 
   thead {
     border-bottom: 3px solid $line-color;
@@ -39,8 +40,13 @@ table.table {
       visibility: visible;
   }
 
-  &.full-width {
+  &.truncate {
     table-layout: fixed;
-    width: 100%;
+
+    td {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
   }
 }
