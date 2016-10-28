@@ -22,9 +22,10 @@ nav:
   - title: Utilities
 - title: Components
   pages:
+    - title: Table
     - title: Widget
+    - title: ChartView
     - title: Card
-    - title: Tabs
     - title: Forms
 
 defaults:

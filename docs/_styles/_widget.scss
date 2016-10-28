@@ -1,12 +1,15 @@
 .widget {
   background: white;
-  max-width: 340px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-width: 340px;
   border: $border;
 
   > .widget-header {
-    @include vertical-center;
     @include font-med;
-    height: 40px;
+    display: flex;
+    align-items: center;
+    height: 40px; // Move to _variables.scss
     border-bottom: $border;
   }
 
@@ -15,7 +18,16 @@
     @include padded-sides;
   }
 
-  >.widget-body.plain {
-    padding: 10px;
+  >.widget-body {
+    padding: 10px;  // Move to _variables.scss
+  }
+
+  > .widget-header [icon] {
+    margin-right: 5px;
+  }
+
+  > .widget-header [icon] > svg {
+    fill: currentColor;
+    stroke: currentColor;
   }
 }

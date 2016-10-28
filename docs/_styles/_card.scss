@@ -7,12 +7,12 @@
   height: 120px;
 
   &:hover {
-    border: 1px solid red;
+    border: 1px solid $outline-color;
   }
 
   &.diagnosis-card {
     padding-left: 40px;
-    background-image: url('/images/_sprite.svg#icon-diagnosis'); // TODO
+    background-image: url('/images/sprite.svg#icon-diagnosis'); // TODO
     background-repeat: no-repeat;
     background-size: 20px 20px;
   }

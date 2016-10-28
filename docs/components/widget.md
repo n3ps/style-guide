@@ -13,20 +13,22 @@ Widgets are the basic building blocks.
 
 <div class="widget">
   <div class="widget-header">Widget Header</div>
-  <div class="widget-body plain">Widget Body</div>
+  <div class="widget-body">Widget Body</div>
 </div>
 
 {% endexample %}
 
-### Example: Linked and with icon (TO DO)
 
+### Example: Linked and with icon
+<div ng-app="docsApp">
 {% example html %}
 
 <div class="widget">
   <div class="widget-header">
-    <a href="#">Click me</a>
+    <v-icon icon="diagnosis"></v-icon> <a href="#">Diagnosis</a>
   </div>
-  <div class="widget-body plain">Widget Body</div>
+  <div class="widget-body">Widget Body</div>
 </div>
 
 {% endexample %}
+</div>

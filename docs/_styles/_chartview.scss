@@ -1,0 +1,16 @@
+.chart-view {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  > header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: $border;
+    margin-bottom: 10px;
+  }
+
+  > header > h1 {
+    @extend .large-heading;
+    margin-bottom: 0;
+  }
+}

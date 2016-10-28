@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
 
+    <link rel="stylesheet" href="/angular-halo-ui-library.css">
     <link rel="stylesheet" href="/css/varian.css">
     <link rel="stylesheet" href="/css/docs.css">
   </head>
   <body class="docs-body">
 
     <header class="docs-header">
-      Varian 360 Oncology - Pattern Library
+      <a href="/">Varian 360 Oncology - Pattern Library</a>
     </header>
 
     <main class="docs-main">
@@ -39,6 +40,38 @@
         {{ content }}
       </div>
     </main>
+
+    <!-- Angular -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+
+    <!-- Brightact dependencies -->
+    <script>var svg4everybody = function(){}</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.0/angular-moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ngMask/3.1.1/ngMask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.9.0/angular-wizard.min.js"></script>
+
+    <script src="/angular-localization.js"></script>
+    <script src="/angular-dropzone.js"></script>
+    <script src="/angular-bind-html-compile.js"></script>
+    <script src="/datetime.js"></script>
+
+    <script src="/angular-halo-ui-library.js"></script>
+
+    <script>
+      var docsApp = angular.module('docsApp', ['ngMaterial', 'ngHaloUiLibrary']);
+
+      docsApp.config([
+        '$interpolateProvider', function($interpolateProvider) {
+          return $interpolateProvider.startSymbol('{(').endSymbol(')}');
+        }
+      ]);
+    </script>
 
   </body>
 </html>

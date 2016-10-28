@@ -8,11 +8,15 @@
 
 .docs-header {
   background-color: #48657E;
-  color: white;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
   font-size: 18px;
+
+  &, a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .docs-main {
@@ -45,6 +49,10 @@
   > h1 {
     border-bottom: none;
   }
+}
+
+.floated > * {
+  float: left;
 }
 
 .highlight {

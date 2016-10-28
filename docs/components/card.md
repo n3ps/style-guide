@@ -17,22 +17,19 @@ Card are [insert description here]
 
 {% endexample %}
 
-### Example variation: Diagnosis Card
+### Example: Diagnosis Card
 
 {% example html %}
 
 <div class="card diagnosis-card">
-  <div class="card-block">
 
+  <div class="card-block">
     <div class="justify"><span>Jul 23, 2015</span> <span>Pending Approval</span></div>
     <div class="strong">Malignant neoplasm of upper love, right bronchus or lung</div>
     <div>Stage IIA T1a N1 M0</div>
-
   </div>
 
-  <div class="footer">
-    Active
-  </div>
+  <div class="footer">Active</div>
 
 </div>
 

@@ -14,7 +14,8 @@ strong,
   font-weight: 500;
 }
 
-a:link {
+a:link,
+a:visited {
   color: $link-color;
   text-decoration: none;
 }
@@ -23,16 +24,16 @@ a:hover {
   text-decoration: underline;
 }
 
-$font-size-med: 18px;
-
 .med-heading {
-  font-size: $font-size-med;
+  font-size: 18px;
+  line-height: 1;
   font-weight: 500;
 }
 
 .large-heading {
   font-size: 24px;
-  font-weight: 500;
+  line-height: 1;
+  font-weight: 300;
 }
 
 .selected {

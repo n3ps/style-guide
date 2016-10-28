@@ -1,0 +1,46 @@
+table.table {
+  border-collapse: collapse;
+
+  thead {
+    border-bottom: 3px solid $line-color;
+  }
+
+  tbody {
+    background-color: white;
+  }
+
+  th {
+    text-align: left;
+    font-weight: 300;
+  }
+
+  td, th {
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    // width: auto;
+    // vertical-align: top;
+  }
+
+  tr + tr {
+      border-top: $border;
+  }
+
+  th.wrap,
+  td.wrap {
+      width: 65%;
+  }
+
+  .hover > * {
+      visibility: hidden;
+  }
+
+  tr:hover .hover > * {
+      visibility: visible;
+  }
+
+  &.full-width {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
